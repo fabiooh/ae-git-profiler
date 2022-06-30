@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add webpack
+
+PATH: 
+  /Users/fabioo/homebrew/sbin:/Users/fabioo/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.4.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/usr/local/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/usr/local/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:66215:16)
+      at Request.emit (node:events:390:28)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/lib/node_modules/yarn/lib/cli.js:141767:10)
+      at ClientRequest.emit (node:events:390:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:623:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at TLSSocket.socketOnData (node:_http_client:487:22)
+      at TLSSocket.emit (node:events:390:28)
+
+npm manifest: 
+  {
+    "name": "ae-git-profiler",
+    "version": "1.0.0",
+    "description": "GitHub profiler for AE",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github-fabio:fabiooh/ae-git-profiler.git"
+    },
+    "keywords": [
+      "GitHub",
+      "profiler"
+    ],
+    "author": "Fabio Ohtsuki",
+    "license": "ISC",
+    "dependencies": {
+      "webpack": "^5.73.0"
+    },
+    "resolutions": {
+      "@types/eslint": "8.4.3"
+    },
+    "devDependencies": {
+      "@types/eslint": "^8.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

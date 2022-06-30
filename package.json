@@ -1,0 +1,28 @@
+{
+  "name": "ae-git-profiler",
+  "version": "1.0.0",
+  "description": "GitHub profiler for AE",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-fabio:fabiooh/ae-git-profiler.git"
+  },
+  "keywords": [
+    "GitHub",
+    "profiler"
+  ],
+  "author": "Fabio Ohtsuki",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.73.0"
+  },
+  "resolutions": {
+    "@types/eslint": "8.4.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.3"
+  }
+}
